@@ -1,18 +1,6 @@
 # Welcome to motion-x 👋
 
-`@tinker-hub/motion-core`
-
-[![npm version](https://badge.fury.io/js/%40tinker-hub%2Fmotion-core.svg)](https://badge.fury.io/js/%40tinker-hub%2Fmotion-core)
-
-`@tinker-hub/use-motion`
-
-[![npm version](https://badge.fury.io/js/%40tinker-hub%2Fuse-motion.svg)](https://badge.fury.io/js/%40tinker-hub%2Fuse-motion)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-
-> Control your element's animation using JavaScript
-
-### ✨ [Demo](https://github.com/tinker-hub/motion-x/tree/master/example)
+> Control your element's animation declaratively using JavaScript 
 
 ## Install
 
@@ -21,15 +9,19 @@ Using via Vanilla JavaScript:
 npm install @tinker-hub/motion-core
 ```
 
+[![npm version](https://badge.fury.io/js/%40tinker-hub%2Fmotion-core.svg)](https://badge.fury.io/js/%40tinker-hub%2Fmotion-core)
+
 
 Using via React:
 ```sh
 npm install @tinker-hub/use-motion
 ```
 
+[![npm version](https://badge.fury.io/js/%40tinker-hub%2Fuse-motion.svg)](https://badge.fury.io/js/%40tinker-hub%2Fuse-motion)
+
 ## Usage
 
-Sample usage from React:
+Basic usage using React:
 
 ```JSX
 import { useMotion } from '@tinker-hub/use-motion';
@@ -81,12 +73,11 @@ function App() {
 }
 ```
 
+## API
 
-## Run tests
+- `@tinker-hub/motion-core` API is available [here](https://github.com/tinker-hub/motion-x/tree/master/packages/motion-core).
+- `@tinker-hub/use-motion` API is available [here](https://github.com/tinker-hub/motion-x/tree/master/packages/use-motion).
 
-```sh
-npm run test
-```
 
 ## Author
 
