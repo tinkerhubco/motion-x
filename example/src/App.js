@@ -1,8 +1,8 @@
-import React, { useRef, useEffect, useCallback } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { useMotion } from './@tinker/motion';
+import { useMotion } from '@tinker-hub/use-motion';
 
 function App() {
   const { controls, ref } = useMotion({
