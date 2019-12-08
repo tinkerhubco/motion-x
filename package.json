@@ -6,8 +6,10 @@
     "lerna": "^3.19.0"
   },
   "scripts": {
-    "publish": "lerna publish from-package --no-git-reset --yes",
-    "version": "lerna version",
+    "publish": "lerna publish from-package --no-git-reset --no-push --no-verify-access --yes",
     "test": "lerna run test"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
