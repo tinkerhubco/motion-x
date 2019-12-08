@@ -21,6 +21,8 @@ npm install @tinker-hub/use-motion
 
 ## Usage
 
+🚀 Codesandbox [demo](https://codesandbox.io/s/tinker-hubuse-motion-nov06).
+
 Basic usage using React:
 
 ```JSX
