@@ -74,6 +74,8 @@ An `animation` object will be the one defining how an element will animate. It i
   - [animationTimingFunction](https://www.w3schools.com/jsref/prop_style_animationtimingfunction.asp)
   - [CSS @keyframes Rule](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)
     - When defining a keyframe rule, you don't need to add the `@keyframes <name> {}` part.
+- `autoStart`
+  - False by default. This will auto start the animation.
 
 ### motionObject
 
