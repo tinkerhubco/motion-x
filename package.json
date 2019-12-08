@@ -6,6 +6,7 @@
   },
   "scripts": {
     "publish": "lerna publish from-package --no-git-reset",
-    "version": "lerna version"
+    "version": "lerna version",
+    "test": "lerna run test"
   }
 }
