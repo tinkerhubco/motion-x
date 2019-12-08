@@ -5,7 +5,7 @@
     "lerna": "^3.19.0"
   },
   "scripts": {
-    "publish": "lerna publish from-package --no-git-reset",
+    "publish": "lerna publish from-package --no-git-reset --yes",
     "version": "lerna version",
     "test": "lerna run test"
   }
