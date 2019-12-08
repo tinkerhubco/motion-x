@@ -1,0 +1,21 @@
+{
+  "name": "@tinker-hub/use-motion",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "JM Santos <johmichaelubas.santos@gmail.com.com>",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
